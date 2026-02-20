@@ -1,7 +1,7 @@
 services:
   nyt-sudoku:
     build: .
-    image: nyt-sudoku-export
+    image: nyt-sudoku-exporter
 
     volumes:
       - ./output:/app/nyt_opensudoku
