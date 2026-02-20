@@ -1,0 +1,9 @@
+services:
+  nyt-sudoku:
+    build: .
+    image: nyt-sudoku-export
+
+    volumes:
+      - ./output:/app/nyt_opensudoku
+
+    restart: "no"
